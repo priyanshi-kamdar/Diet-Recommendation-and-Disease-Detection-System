@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fb;
+    color: #222;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #1fb3c6;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1fb3c6;
+}
+
+.contact-btn {
+    border: 1px solid #1fb3c6;
+    border-radius: 25px;
+    padding: 8px 18px;
+    color: #1fb3c6;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #1fb3c6;
+    color: #fff;
+}
+
+/* Main Section */
+.main {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.main h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Image placeholders (Replace these with your images) */
+#disease-img {
+    background: url('disease-page.jpg') center/cover no-repeat;
+    height: 250px;
+}
+
+#diet-img {
+    background: url('diet-page.jpg') center/cover no-repeat;
+    height: 250px;
+}
+
+/* Card content */
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    color: #1fb3c6;
+}
+
+.card-content p {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1fb3c6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #149aa8;
+}

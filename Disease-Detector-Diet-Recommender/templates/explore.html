@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance IQ - Prediction Options</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/page-2.css') }}">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">BALANCE <span>IQ</span></div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#" class="contact-btn">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="main">
+        <h2>Prediction Options</h2>
+        <div class="cards">
+            
+            <!-- Disease Detection Card -->
+            <div class="card">
+                <div class="card-image" id="disease-img"></div>
+                <div class="card-content">
+                    <h3>Disease Detection</h3>
+                    <p>Input your symptoms and our AI will analyze potential health conditions.</p>
+                    <a href="{{ url_for('diseasedetection') }}"><button>Know Your Disease</button></a>
+                </div>
+            </div>
+
+            <!-- Diet Recommendation Card -->
+            <div class="card">
+                <div class="card-image" id="diet-img"></div>
+                <div class="card-content">
+                    <h3>Diet Prediction</h3>
+                    <p>Receive personalized meal plans tailored to your health goals and preferences.</p>
+                    <a href="{{ url_for('dietrecommendation') }}"><button>Get Your Diet</button></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>

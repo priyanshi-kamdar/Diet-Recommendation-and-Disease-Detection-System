@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Navbar */
+  .navbar {
+    position: fixed;      /* stick to top */
+    top: 0;
+    left: 0;
+    width: 100%;          /* full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #111;
+    color: #fff;
+    z-index: 1000;        /* keep above other content */
+  }
+
+  .navbar .logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .navbar .nav-links li a:hover,
+  .navbar .nav-links li a.active {
+    color: #B8F2E6;
+  }
+
+  .contact-btn {
+    padding: 8px 16px;
+    background: #B8F2E6;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+  }
+
+  .contact-btn:hover {
+    background: #B8F2E6;
+  }
+
+  /* Add margin so content doesn't hide behind fixed navbar */
+  .overlay, .con {
+    margin-top: 80px;
+  }
+
+  </style>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="logo">BALANCE IQ</div>
+    <ul class="nav-links">
+      <li><a href="{{ url_for('index') }}">Home</a></li>
+      {% if username %}
+        <li class="user-menu">
+          <a href="#"><i class="fa fa-user-circle"></i> {{ username }}</a>
+          <ul class="dropdown">
+            <li><a href="#">Profile</a></li>
+            <li><a href="{{ url_for('logout') }}">Logout</a></li>
+          </ul>
+        </li>
+      {% else %}
+        <li><a href="{{ url_for('login') }}">Login</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+</header>
+
+<div class="overlay">
+  <form method="POST" action="{{ url_for('register') }}">
+    <div class="con">
+      <header class="head-form">
+        <h2>Sign Up</h2>
+        <p>Create your account</p>
+      </header>
+      <br>
+      <div class="field-set">
+        <span class="input-item"><i class="fa fa-user-circle"></i></span>
+        <input class="form-input" type="text" name="username" placeholder="@UserName" required><br>
+        <span class="input-item"><i class="fa fa-key"></i></span>
+        <input class="form-input" type="password" placeholder="Password" name="password" required><br>
+        <button class="log-in" type="submit">Sign Up</button>
+      </div>
+      <div class="other" style="display: flex; gap: 10px; align-items: center;">
+        <span>Already have an account?</span>
+        <button class="btn submits sign-up" type="button"
+          onclick="window.location.href='{{ url_for('login') }}';">
+          Log In <i class="fa fa-user-plus"></i>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

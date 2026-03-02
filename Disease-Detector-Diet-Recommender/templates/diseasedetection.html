@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disease Detection</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/diseasedetection.css') }}">
+</head>
+<body>
+  <!-- Navbar -->
+ <header>
+    <nav class="navbar">
+      <div class="logo">BALANCE IQ</div>
+      <ul class="nav-links">
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">How It Works</a></li>
+      </ul>
+      <a href="#" class="contact-btn">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <section class="hero">
+    <div class="overlay">
+      <div class="content">
+        <h2>Disease Detection</h2>
+        <p>Enter your symptoms to detect possible diseases</p>
+        <div class="input-container">
+          <input type="text" id="symptomInput" placeholder="Start typing your symptoms..." />
+          <button id="analyzeBtn">Analyze</button>
+        </div>
+        <ul id="suggestions"></ul>
+        <div id="result" class="result"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="{{ url_for('static', filename='js/diseasedetection.js') }}"></script>
+</body>
+</html>

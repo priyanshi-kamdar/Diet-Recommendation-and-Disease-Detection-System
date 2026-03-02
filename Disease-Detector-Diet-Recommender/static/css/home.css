@@ -1,0 +1,204 @@
+/* Reset & Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  scroll-padding-top: 32px;
+  list-style: none;
+}
+
+body {
+  color: white;
+  background: #fff;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: 2px solid black;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: green;
+  border-bottom: 2px solid green;
+}
+
+.contact-btn {
+  border: 2px solid black;
+  padding: 8px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+.contact-btn:hover {
+  background: black;
+  color: white;
+}
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('pexels-jill-wellington-1638660-257816.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align left */
+  padding-left: 100px;
+  padding-top: 80px; /* space for navbar */
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  text-align: left;
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+.footer{
+    background-color: #24232f;
+    padding: 70px 0;
+
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+
+}
+.footer-col{
+    width: 25%;
+     padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left:8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    background-color: rgb(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.footer2-bacbor {
+    background: #24232f;
+    padding: 10px 0px;
+    margin-top: 40px;
+  }
+  .footer2-content {
+    font-size: 14px;
+    color: #ffffff;
+    font-family :Arial, Helvetica, sans-serif, Helvetica, Arial, sans-serif;
+    text-align: center;
+  }

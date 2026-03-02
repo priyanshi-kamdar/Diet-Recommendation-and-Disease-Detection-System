@@ -1,0 +1,301 @@
+Disease,Foods_to_Eat,Foods_to_Avoid,Sample_Day_Plan
+Actinic Keratosis,"Foods rich in vitamin E and C, nuts, seeds, leafy greens, anti-inflammatory foods.","Spicy foods, dairy (if sensitive), high sugar, fried foods.","Breakfast: Smoothie with greens.
+Lunch: Veg bowl with seeds.
+Dinner: Soup + steamed veggies."
+Acute Bronchiolitis,"Warm soups, herbal teas, ginger, turmeric, honey, fruits rich in vitamin C, leafy greens.","Cold drinks, dairy (if it increases mucus), fried foods, sugary foods.","Breakfast: Ginger tea + fruit.
+Lunch: Vegetable soup + whole grains.
+Dinner: Steamed veggies + lean protein."
+Acute Bronchitis,"Warm soups, herbal teas, ginger, turmeric, honey, fruits rich in vitamin C, leafy greens.","Cold drinks, dairy (if it increases mucus), fried foods, sugary foods.","Breakfast: Ginger tea + fruit.
+Lunch: Vegetable soup + whole grains.
+Dinner: Steamed veggies + lean protein."
+Acute Bronchospasm,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Acute Kidney Injury,"Low-sodium foods, apples, berries, cabbage, cauliflower, rice, refined grains (low potassium).","High-potassium foods (bananas, oranges), high-phosphorus foods, processed food, red meat.","Breakfast: Low-sodium porridge.
+Lunch: Rice + low-potassium veggies.
+Dinner: Grilled chicken + cabbage."
+Acute Pancreatitis,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Acute Sinusitis,"Warm soups, herbal teas, ginger, turmeric, honey, fruits rich in vitamin C, leafy greens.","Cold drinks, dairy (if it increases mucus), fried foods, sugary foods.","Breakfast: Ginger tea + fruit.
+Lunch: Vegetable soup + whole grains.
+Dinner: Steamed veggies + lean protein."
+Allergy,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Angina,"Oats, fruits, vegetables, nuts, seeds, olive oil, omega‑3 rich foods.","Fried foods, red meat, high-salt foods, butter, packaged snacks.","Breakfast: Oatmeal + fruits.
+Lunch: Salad + grilled fish.
+Dinner: Steamed vegetables + whole grains."
+Anxiety,"Omega3 foods, nuts, seeds, whole grains, dark chocolate, fruits.","Caffeine excess, sugar, alcohol, processed foods.","Breakfast: Nuts + fruit.
+Lunch: Whole‑grain bowl.
+Dinner: Veggies + lean protein."
+Appendicitis,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Arthritis Of The Hip,"Antiinflammatory foods like berries, leafy greens, turmeric, ginger, fish.","Processed foods, excessive sugar, fried items.","Breakfast: Fruit bowl.
+Lunch: Salmon + greens.
+Dinner: Veggies + lentils."
+Asthma,"Warm soups, herbal teas, ginger, turmeric, honey, fruits rich in vitamin C, leafy greens.","Cold drinks, dairy (if it increases mucus), fried foods, sugary foods.","Breakfast: Ginger tea + fruit.
+Lunch: Vegetable soup + whole grains.
+Dinner: Steamed veggies + lean protein."
+Benign Prostatic Hyperplasia (Bph),"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Brachial Neuritis,"Antiinflammatory foods like berries, leafy greens, turmeric, ginger, fish.","Processed foods, excessive sugar, fried items.","Breakfast: Fruit bowl.
+Lunch: Salmon + greens.
+Dinner: Veggies + lentils."
+Bursitis,"Antiinflammatory foods like berries, leafy greens, turmeric, ginger, fish.","Processed foods, excessive sugar, fried items.","Breakfast: Fruit bowl.
+Lunch: Salmon + greens.
+Dinner: Veggies + lentils."
+Carpal Tunnel Syndrome,"Antiinflammatory foods like berries, leafy greens, turmeric, ginger, fish.","Processed foods, excessive sugar, fried items.","Breakfast: Fruit bowl.
+Lunch: Salmon + greens.
+Dinner: Veggies + lentils."
+Cholecystitis,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Chronic Back Pain,"Antiinflammatory foods like berries, leafy greens, turmeric, ginger, fish.","Processed foods, excessive sugar, fried items.","Breakfast: Fruit bowl.
+Lunch: Salmon + greens.
+Dinner: Veggies + lentils."
+Chronic Constipation,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Chronic Obstructive Pulmonary Disease (Copd),"Warm soups, herbal teas, ginger, turmeric, honey, fruits rich in vitamin C, leafy greens.","Cold drinks, dairy (if it increases mucus), fried foods, sugary foods.","Breakfast: Ginger tea + fruit.
+Lunch: Vegetable soup + whole grains.
+Dinner: Steamed veggies + lean protein."
+Common Cold,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Complex Regional Pain Syndrome,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Concussion,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Conjunctivitis,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Conjunctivitis Due To Allergy,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Contact Dermatitis,"Foods rich in vitamin E and C, nuts, seeds, leafy greens, anti-inflammatory foods.","Spicy foods, dairy (if sensitive), high sugar, fried foods.","Breakfast: Smoothie with greens.
+Lunch: Veg bowl with seeds.
+Dinner: Soup + steamed veggies."
+Cornea Infection,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Croup,"Warm soups, herbal teas, ginger, turmeric, honey, fruits rich in vitamin C, leafy greens.","Cold drinks, dairy (if it increases mucus), fried foods, sugary foods.","Breakfast: Ginger tea + fruit.
+Lunch: Vegetable soup + whole grains.
+Dinner: Steamed veggies + lean protein."
+Cystitis,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Degenerative Disc Disease,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Dental Caries,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Depression,"Omega3 foods, nuts, seeds, whole grains, dark chocolate, fruits.","Caffeine excess, sugar, alcohol, processed foods.","Breakfast: Nuts + fruit.
+Lunch: Whole‑grain bowl.
+Dinner: Veggies + lean protein."
+Developmental Disability,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Diaper Rash,"Foods rich in vitamin E and C, nuts, seeds, leafy greens, anti-inflammatory foods.","Spicy foods, dairy (if sensitive), high sugar, fried foods.","Breakfast: Smoothie with greens.
+Lunch: Veg bowl with seeds.
+Dinner: Soup + steamed veggies."
+Diverticulitis,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Drug Reaction,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Ear Drum Damage,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Eczema,"Foods rich in vitamin E and C, nuts, seeds, leafy greens, anti-inflammatory foods.","Spicy foods, dairy (if sensitive), high sugar, fried foods.","Breakfast: Smoothie with greens.
+Lunch: Veg bowl with seeds.
+Dinner: Soup + steamed veggies."
+Esophagitis,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Eustachian Tube Dysfunction (Ear Disorder),"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Fungal Infection Of The Hair,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Gallstone,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Gastrointestinal Hemorrhage,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Gout,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Gum Disease,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Heart Attack,"Oats, fruits, vegetables, nuts, seeds, olive oil, omega‑3 rich foods.","Fried foods, red meat, high-salt foods, butter, packaged snacks.","Breakfast: Oatmeal + fruits.
+Lunch: Salad + grilled fish.
+Dinner: Steamed vegetables + whole grains."
+Heart Failure,"Oats, fruits, vegetables, nuts, seeds, olive oil, omega‑3 rich foods.","Fried foods, red meat, high-salt foods, butter, packaged snacks.","Breakfast: Oatmeal + fruits.
+Lunch: Salad + grilled fish.
+Dinner: Steamed vegetables + whole grains."
+Hemorrhoids,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Herniated Disk,"Anti‑inflammatory foods like berries, leafy greens, turmeric, ginger, fish.","Processed foods, excessive sugar, fried items.","Breakfast: Fruit bowl.
+Lunch: Salmon + greens.
+Dinner: Veggies + lentils."
+Hiatal Hernia,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Hyperemesis Gravidarum,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Hypertensive Heart Disease,"Oats, fruits, vegetables, nuts, seeds, olive oil, omega‑3 rich foods.","Fried foods, red meat, high-salt foods, butter, packaged snacks.","Breakfast: Oatmeal + fruits.
+Lunch: Salad + grilled fish.
+Dinner: Steamed vegetables + whole grains."
+Hypoglycemia,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Idiopathic Excessive Menstruation,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Idiopathic Irregular Menstrual Cycle,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Idiopathic Painful Menstruation,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Infectious Gastroenteritis,"Soft, bland, low‑fiber foods: bananas, toast, rice, boiled vegetables.","Spicy foods, high fat, caffeine, alcohol, raw veggies.","Breakfast: Toast + banana.
+Lunch: Rice + boiled veggies.
+Dinner: Clear soup."
+Injury To The Arm,"Hydrating foods, soups, fruits, probiotics, garlic, ginger.","Fried foods, spicy foods, sugar, processed foods.","Breakfast: Warm tea + fruit.
+Lunch: Soup + rice.
+Dinner: Steamed vegetables."
+Injury To The Leg,"High-protein foods, eggs, lentils, milk, fruits, leafy greens","Fried foods, alcohol, sugary foods","Breakfast: Eggs + fruit.
+Lunch: Dal + rice + veggies.
+Dinner: Soup + roti."
+Injury To The Trunk,"High-protein foods, eggs, lentils, milk, fruits, leafy greens","Fried foods, alcohol, sugary foods","Breakfast: Eggs + fruit.
+Lunch: Dal + rice + veggies.
+Dinner: Soup + roti."
+Liver Disease,"Low-fat foods, whole grains, lean protein, fruits","Alcohol, fried foods, high-fat foods","Breakfast: Oats.
+Lunch: Veg khichdi.
+Dinner: Steamed veggies."
+Macular Degeneration,"Leafy greens, carrots, fish, nuts","High sugar, processed snacks","Breakfast: Carrot juice.
+Lunch: Greens bowl.
+Dinner: Fish + veggies."
+Marijuana Abuse,"Hydrating foods, fruits, nuts, whole grains","Alcohol, caffeine excess, processed foods","Breakfast: Fruit bowl.
+Lunch: Rice + dal.
+Dinner: Soup."
+Multiple Sclerosis,"Omega‑3 foods, nuts, seeds, greens","Trans fats, sugar, processed foods","Breakfast: Nuts.
+Lunch: Greens + grains.
+Dinner: Lentils."
+Noninfectious Gastroenteritis,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Nose Disorder,"Warm fluids, vitamin C fruits, soft foods","Cold drinks, fried snacks","Breakfast: Warm tea.
+Lunch: Soup.
+Dinner: Steamed veg."
+Obstructive Sleep Apnea (Osa),"Tryptophan-rich foods, warm milk, banana, oats","Caffeine, heavy meals","Breakfast: Oats.
+Lunch: Veg thali.
+Dinner: Warm milk + fruit."
+Otitis Externa (Swimmer'S Ear),"Warm fluids, vitamin C fruits, soft foods","Cold drinks, fried snacks","Breakfast: Warm tea.
+Lunch: Soup.
+Dinner: Steamed veg."
+Otitis Media,"Warm fluids, vitamin C fruits, soft foods","Cold drinks, fried snacks","Breakfast: Warm tea.
+Lunch: Soup.
+Dinner: Steamed veg."
+Pain After An Operation,"High protein, soft foods, fruits","Fried foods, sugar","Breakfast: Eggs.
+Lunch: Dal.
+Dinner: Soup."
+Panic Disorder,"Omega3 foods, whole grains, nuts","Sugar, caffeine, alcohol","Breakfast: Nuts.
+Lunch: Whole grains.
+Dinner: Veg + protein."
+Pelvic Inflammatory Disease,"Hydration, curd, fruits, whole grains","Sugar, fried foods","Breakfast: Fruit.
+Lunch: Curd rice.
+Dinner: Veg soup."
+Peripheral Nerve Disorder,"Omega3 foods, nuts, seeds, greens","Trans fats, sugar, processed foods","Breakfast: Nuts.
+Lunch: Greens + grains.
+Dinner: Lentils."
+Personality Disorder,"Omega3 foods, whole grains, nuts","Sugar, caffeine, alcohol","Breakfast: Nuts.
+Lunch: Whole grains.
+Dinner: Veg + protein."
+Pneumonia,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Problem During Pregnancy,"Folate, iron-rich foods, fruits",Unpasteurized foods,"Breakfast: Fruit + milk.
+Lunch: Dal + rice.
+Dinner: Vegetables."
+Psoriasis,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Pyogenic Skin Infection,"Vitamin E foods, nuts, seeds, greens","Fried foods, sugar","Breakfast: Greens smoothie.
+Lunch: Veg bowl.
+Dinner: Soup."
+Rectal Disorder,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Schizophrenia,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Seasonal Allergies (Hay Fever),"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Sebaceous Cyst,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Sepsis,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Sickle Cell Crisis,"Folate-rich foods, leafy greens, lean protein","Alcohol, processed foods","Breakfast: Spinach smoothie.
+Lunch: Dal.
+Dinner: Veggies."
+Sinus Bradycardia,"Oats, olive oil, greens, nuts","Salt, fried food","Breakfast: Oats.
+Lunch: Salad.
+Dinner: Veg + grains."
+Skin Pigmentation Disorder,"Vitamin E foods, nuts, seeds, greens","Fried foods, sugar","Breakfast: Greens smoothie.
+Lunch: Veg bowl.
+Dinner: Soup."
+Skin Polyp,"Vitamin E foods, nuts, seeds, greens","Fried foods, sugar","Breakfast: Greens smoothie.
+Lunch: Veg bowl.
+Dinner: Soup."
+Spinal Stenosis,"Omega‑3 foods, nuts, seeds, greens","Trans fats, sugar, processed foods","Breakfast: Nuts.
+Lunch: Greens + grains.
+Dinner: Lentils."
+Spondylosis,"Omega3 foods, nuts, seeds, greens","Trans fats, sugar, processed foods","Breakfast: Nuts.
+Lunch: Greens + grains.
+Dinner: Lentils."
+Spontaneous Abortion,"Folate, iron-rich foods, fruits",Unpasteurized foods,"Breakfast: Fruit + milk.
+Lunch: Dal + rice.
+Dinner: Vegetables."
+Sprain Or Strain,"High-protein foods, eggs, lentils, milk, fruits, leafy greens","Fried foods, alcohol, sugary foods","Breakfast: Eggs + fruit.
+Lunch: Dal + rice + veggies.
+Dinner: Soup + roti."
+Strep Throat,"Warm fluids, vitamin C fruits, soft foods","Cold drinks, fried snacks","Breakfast: Warm tea.
+Lunch: Soup.
+Dinner: Steamed veg."
+Stye,"Warm fluids, vitamin C fruits, soft foods","Cold drinks, fried snacks","Breakfast: Warm tea.
+Lunch: Soup.
+Dinner: Steamed veg."
+Temporary Or Benign Blood In Urine,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."
+Threatened Pregnancy,"Folate, iron-rich foods, fruits",Unpasteurized foods,"Breakfast: Fruit + milk.
+Lunch: Dal + rice.
+Dinner: Vegetables."
+Urinary Tract Infection,"Hydration, cranberry, fruits","Caffeine, spicy foods","Breakfast: Fruit.
+Lunch: Curd rice.
+Dinner: Soup."
+Vaginal Cyst,"Hydration, curd, fruits, whole grains","Sugar, fried foods","Breakfast: Fruit.
+Lunch: Curd rice.
+Dinner: Veg soup."
+Vaginitis,"Hydration, curd, fruits, whole grains","Sugar, fried foods","Breakfast: Fruit.
+Lunch: Curd rice.
+Dinner: Veg soup."
+Vulvodynia,"Bland foods, rice, banana, toast, curd","Spicy foods, fried foods","Breakfast: Banana + toast.
+Lunch: Khichdi.
+Dinner: Clear soup."

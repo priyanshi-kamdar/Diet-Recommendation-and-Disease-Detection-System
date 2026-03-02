@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balance IQ</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+  <script src="{{ url_for('static', filename='js/Homescript.js') }}"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+    .user-menu { position: relative; }
+    .user-menu .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: #fff;
+      list-style: none;
+      padding: 5px 0;
+      border: 1px solid #ddd;
+      min-width: 120px;
+      z-index: 10;
+    }
+    .user-menu:hover .dropdown { display: block; }
+    .user-menu .dropdown li { padding: 5px 10px; }
+    .user-menu .dropdown li a { text-decoration: none; color: #333; }
+    .user-menu .dropdown li a:hover { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">BALANCE IQ</div>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+
+        {% if username %}
+          <li class="user-menu">
+            <a href="#"><i class="fa fa-user-circle"></i> {{ username }}</a>
+            <ul class="dropdown">
+              <li><a href="#">Profile</a></li>
+              <li><a href="{{ url_for('logout') }}">Logout</a></li>
+            </ul>
+          </li>
+        {% else %}
+          <li><a href="{{ url_for('login') }}">Login</a></li>
+        {% endif %}
+      </ul>
+      <a href="#" class="contact-btn">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Predict your health</h1>
+      <p>Get personalized diet plans</p>
+      <button class="btn" onclick="window.location.href='/explore'">Explore</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="#">Our service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Affiliate Program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Options</h4>
+          <ul>
+            <li><a href="#">Disease Detection</a></li>
+            <li><a href="#"> Diet</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="width-100 footer2-bacbor">
+      <p class="footer2-content"> All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,232 @@
+/* General Page Setup */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  scroll-padding-top: 32px;
+  list-style: none;
+  height: 100vh;
+  background-color:rgb(28, 49, 62);
+}
+
+/* Navbar */
+.navbar {
+  position: static;
+  width: 95%;
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: 2px solid black;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: green;
+  border-bottom: 2px solid green;
+}
+
+.contact-btn {
+  border: 2px solid black;
+  padding: 8px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+.contact-btn:hover {
+  background: black;
+  color: white;
+}
+
+/* Container */
+
+.diet-container {
+  padding-top: 10px;
+  display: flex;
+  width: 90%;
+  max-width: 1100px;
+  height: 120vh; /* Increase height */
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  margin: 0 auto; /* Center horizontally */
+}
+
+.diet-form {
+  flex: 1;
+  padding: 50px;
+}
+
+.diet-form h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #1d1d1d;
+}
+
+.diet-form p {
+  color: #555;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+label span {
+  font-weight: normal;
+  color: #888;
+  font-size: 13px;
+}
+
+select {
+  width: 80%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+select:focus {
+  border-color: #2ea44f;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  outline: none;
+  transition: border 0.3s ease;
+  display: block;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  border-color: #2ea44f;
+}
+
+button {
+  background-color: #2ea44f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block;
+}
+
+button:hover {
+  background-color: #22863a;
+}
+
+/* IMAGE SECTION */
+.diet-image {
+  flex: 1.2;
+  position: relative;
+  overflow: hidden;
+}
+
+.diet-image img {
+  width: 115%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: translateX(-40px); /* pushes image more toward mid */
+}
+/* ===== Disease Suggestion Box ===== */
+/* Disease Suggestions dropdown */
+.suggestions-box {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-height: 180px;
+  overflow-y: auto;
+  width: 100%;
+  z-index: 1000;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin-top: 4px;
+}
+
+.suggestions-box div {
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.suggestions-box div:last-child {
+  border-bottom: none;
+}
+
+.suggestions-box div:hover {
+  background-color: #e6f7ff;
+}
+
+/* Diet result styling */
+#diet-result {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+#diet-result h3 {
+  color: #1d1d1d;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#diet-result p {
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+#diet-result strong {
+  color: #333;
+}
+

@@ -1,0 +1,240 @@
+/* Reset & Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #002855, #0077b6);
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: 2px solid black;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: green;
+  border-bottom: 2px solid green;
+}
+
+.contact-btn {
+  border: 2px solid black;
+  padding: 8px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: background 0.3s, color 0.3s;
+}
+
+.contact-btn:hover {
+  background: black;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('WhatsApp\ Image\ 2025-11-09\ at\ 4.40.50\ PM.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Content (no box now) */
+.content {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.content h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.content p {
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #d0e8f2;
+}
+
+/* Input Section */
+.input-container {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  padding: 12px 18px;
+  width: 100%;
+  border-radius: 50px 0 0 50px;
+  font-size: 15px;
+  color: #333;
+}
+
+.input-container button {
+  background-color: #00b86b;
+  border: none;
+  color: white;
+  padding: 0 25px;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.input-container button:hover {
+  background-color: #00995a;
+}
+
+/* Suggestions List */
+#suggestions {
+  list-style: none;
+  margin-top: 15px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  overflow: hidden;
+  color: #000;
+  max-height: 180px;
+  overflow-y: auto;
+  display: none;
+}
+
+#suggestions li {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#suggestions li:hover {
+  background: #e6f7ff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .content h2 {
+    font-size: 28px;
+  }
+  .content p {
+    font-size: 16px;
+  }
+  .input-container {
+    flex-direction: column;
+  }
+}
+/* Suggestions dropdown */
+#suggestions {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  background: white;
+  color: black;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 999;
+}
+
+#suggestions li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 15px;
+}
+
+#suggestions li:hover {
+  background: #c1f1de;
+}
+
+/* Input focus glow */
+#symptomInput:focus {
+  border: 2px solid #4CAF50;
+  outline: none;
+}
+
+/* Link Button */
+.link-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #00b86b;
+  color: white;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.link-btn:hover {
+  background-color: #00995a;
+}
+
+

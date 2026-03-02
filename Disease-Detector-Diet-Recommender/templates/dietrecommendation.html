@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personalized Diet Recommendation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/dietrecommendation.css') }}" />
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+      <div class="logo">BALANCE IQ</div>
+      <ul class="nav-links">
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+
+        {% if username %}
+          <li class="user-menu">
+            <a href="#"><i class="fa fa-user-circle"></i> {{ username }}</a>
+            <ul class="dropdown">
+              <li><a href="#">Profile</a></li>
+              <li><a href="{{ url_for('logout') }}">Logout</a></li>
+            </ul>
+          </li>
+         {% else %}
+          <li><a href="{{ url_for('login') }}">Login</a></li>
+        {% endif %}
+      </ul>
+      <a href="#" class="contact-btn">Contact</a>
+    </nav>
+  </header>
+
+  <div class="diet-container">
+    <!-- Left Section -->
+    <div class="diet-form">
+      <h1>Personalized Diet Recommendation</h1>
+      <p>
+        Receive tailored meal plans based on your unique health profile and dietary preferences.
+      </p>
+
+      <form>
+        <label for="disease">Diagnosed Disease <span>(required)</span></label>
+        <div style="position: relative; width: 80%;">
+          <input type="text" id="disease" name="disease" placeholder="Type disease name..." autocomplete="off" required>
+          <div id="disease-suggestions" class="suggestions-box"></div>
+        </div>
+        <button type="submit">Get My Diet Plan</button>
+      </form>
+      <div id="diet-result"></div>
+    </div>
+   
+ <script src="{{ url_for('static', filename='js/dietrecommendation.js') }}"></script>
+    <!-- Right Section -->
+    <div class="diet-image">
+      <img src="{{ url_for('static', filename='css/Plant-based-diet.jpg') }}" alt="Colorful plant based meal on a wooden table with salad, roasted vegetables, grains and fruit; fresh and wholesome tone; text in image reads Plant based diet" />
+    </div>
+  </div>
+</body>
+</html>
